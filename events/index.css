@@ -7,3 +7,29 @@
   margin-right: 0.5rem;
   text-decoration: none;
 }
+
+.paragraph-wrapper {
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.paragraph {
+  color: white;
+  font-size: 1.5rem;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.bg-aqua {
+  background-color: aqua;
+}
+
+.bg-fuchsia {
+  background-color: fuchsia;
+}
