@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inputs</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Intro to Inputs</h1>
+      <nav class="navbar">
+        <a href="/inputs/index.html" class="link">Inputs</a>
+        <a href="/events/index.html" class="link">Events</a>
+      </nav>
+    </header>
+
+    <!-- A <fieldset> element is used to group related elements within a form. Its semantic value lies in its ability to improve the organization, readability, and accessibility of forms. Here are the key aspects of its semantic value: -->
+    <fieldset>
+      <!-- A <legend> element provides a caption for the group, it enhances accessibility. Screen readers and other assistive technologies use these elements to provide context and improve the user experience for individuals with disabilities. -->
+      <legend>Simple Inputs</legend>
+      <form>
+        <label for="username">Username</label>
+        <input id="username" placeholder="username" type="text" />
+
+        <label for="email">Email</label>
+        <input id="email" placeholder="email" type="email" />
+
+        <label for="number">Number</label>
+        <input id="number" type="number" />
+
+        <label for="date">Date</label>
+        <input id="date" type="date" />
+
+        <label for="telephone">Telephone</label>
+        <input id="telephone" type="tel" />
+
+        <p>
+          <span>..and a few more, See</span>
+          <a href="https://www.w3schools.com/html/html_form_input_types.asp" target="_blank"
+            >input types on W3schools
+          </a>
+        </p>
+
+        <input type="submit" />
+      </form>
+    </fieldset>
+
+    <fieldset>
+      <legend>Radio Input</legend>
+      <form>
+        <label for="sweden">Sweden</label>
+        <input type="radio" name="country" id="sweden" style="accent-color: yellow" />
+
+        <label for="norway">Norway</label>
+        <input type="radio" name="country" id="norway" style="accent-color: navy" />
+
+        <label for="denmark">Denmark</label>
+        <input type="radio" name="country" id="denmark" style="accent-color: red" />
+
+        <button type="submit">Choose country</button>
+      </form>
+    </fieldset>
+
+    <fieldset>
+      <legend>Checkbox Input</legend>
+      <form>
+        <label for="javascript">JavaScript</label>
+        <input type="checkbox" id="javascript" />
+
+        <label for="html">HTML</label>
+        <input type="checkbox" id="html" />
+
+        <label for="css">CSS</label>
+        <input type="checkbox" id="css" />
+
+        <button type="submit">Choose competence</button>
+      </form>
+    </fieldset>
+
+    <fieldset>
+      <legend>Select <em>( dropdown )</em></legend>
+      <form>
+        <select>
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+          <option value="honda">Honda</option>
+          <option value="mercedes">Mercedes</option>
+        </select>
+
+        <button type="submit">Click to send</button>
+      </form>
+    </fieldset>
+  </body>
+</html>

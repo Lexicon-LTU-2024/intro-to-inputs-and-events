@@ -1,0 +1,9 @@
+.header {
+  margin-bottom: 2rem;
+}
+
+.header .navbar .link {
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  text-decoration: none;
+}
